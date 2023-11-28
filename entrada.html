@@ -125,7 +125,16 @@
         </div>
       </div>
 
-      <p class="copyright">Todos los derechos Reservados, TiendaMuebles</p>
+      <p class="copyright">
+        &copy; <span id="currentYear"></span> Todos los derechos reservados,
+        Tienda Muebles
+      </p>
     </footer>
+    <script>
+      // Obtener el año actual
+      const year = new Date().getFullYear();
+      // Actualizar el contenido del elemento con el año actual
+      document.getElementById("currentYear").textContent = year;
+    </script>
   </body>
 </html>
