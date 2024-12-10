@@ -1,0 +1,16 @@
+# Ignorar archivos binarios
+*.exe
+*.dll
+
+# Ignorar carpetas específicas
+node_modules/
+dist/
+.vscode/
+
+
+# Ignorar configuraciones del entorno local
+.env
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
